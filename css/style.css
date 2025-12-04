@@ -1,0 +1,376 @@
+body { 
+	font-family: Verdana;
+	font-size: 12px;
+	background-color: #D4D4D4;
+	background-repeat: repeat-y;
+}
+td {
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+div.float-side-div {
+	background-color:#EEEEEE;
+	border:1px solid #999999;
+	padding: 5px;
+	padding-top: 2px;
+	font-size:10px;
+	width: 130px;
+	color: #222222;
+	text-align:center;
+}
+
+img.sidebar-img {
+	border:1px solid #999;
+	margin-top:3px;
+	margin-bottom:3px
+}
+
+div.advert-div {
+	color: #666666;
+	text-align:center;
+	font-size:10px;
+}
+
+div.float-title-div {
+	color: #666666;
+	text-align:center;
+	font-size:10px;
+	border-bottom: 1px solid #AAA;
+	margin-bottom: 3px;
+}
+
+table.top-mirror-field-table {
+	width: 100%;
+	height: 60px;
+	background-color:#EEEEEE;
+	border:1px solid #999999;
+}
+
+span.welcome {
+	color: #D4D4D4;
+}
+
+span.title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+span.status-Admin {
+	color: #DD0000;
+	font-weight: bdold;
+}
+
+span.status-Registered {
+	color: #000000;
+	font-weight: bdold;
+}
+
+span.status-Moderator {
+	color: #0000DD;
+	font-weight: bdold;
+}
+
+span.status-Submitter {
+	color: #008000;
+	font-weight: bdold;
+}
+
+span.status-Donator {
+	color: #804000;
+	font-weight: bdold;
+}
+
+
+span.status-anonymous {
+	color: gray;
+	font-style: italic;
+}
+
+div.seperator {
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #EEEEEE;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	width:200px;
+	text-align:center;
+	psadding-left:20px;
+}
+
+td.indenter-td {
+	padding-left: 15px;
+	pasdding-right: 15px;
+}
+
+span.category-header {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+span.category-header-top {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+input {
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+textarea {
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+a {
+	color: #000000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+
+a.torrent-link {
+	color: #0000C0;
+	text-decoration: none;
+}
+a.torrent-link:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+a.torrent-moderated-link {
+	color: #008000;
+	text-decoration: none;
+}
+a.torrent-moderated-link:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+
+a.no-underline {
+	color: #000000;
+	text-decoration: none;
+}
+a.no-underline:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+td.newsitemposter-td {
+	background: #EEEEEE;
+	font-weight: bsold;
+	white-space: nowrap;
+}
+
+td.newsitemtitle-td {
+	background: #EEEEEE;
+	font-weight: bold;
+	color: #800000;
+	width:100%
+}
+
+td.newsitemcontent-td {
+	background: #FFFFFF;
+	text-align: left;
+}
+	
+td.torrentheader-td {
+	background: #EEEEEE;
+	font-weight: bold;
+	text-align: center;
+}
+td.torrentheader-grey-td{
+	background: #EEEEEE;
+	font-weight: bold;
+	text-align: center;
+}
+td.torrentheader-name-td {
+	background: #EEEEEE;
+	font-weight: bold;
+}
+
+td.torrentheader-typeheader-td {
+	background: #EEEEEE;
+	color: #800000;
+	font-weight: bold;
+}
+
+td.torrent-td {
+	background: #FFFFFF;
+	font-size: 12px;
+}
+
+td.torrentheader-select-td {
+	width: 20px;
+	background: #EEEEEE;
+	font-weight: bold;
+	padding: 0px;
+}
+td.torrentheader-date-td {
+	width: 45px;
+	background: #EEEEEE;
+	font-weight: bold;
+	text-align: center;
+}
+td.torrentheader-name-td {
+	width: 280px;
+	background: #EEEEEE;
+	font-weight: bold;
+}
+td.torrentheader-filesize-td {
+	width: 70px;
+	background: #EEEEEE;
+	font-weight: bold;
+	text-align: center;
+}
+td.torrentheader-quality-td {
+	width: 75px;
+	background: #EEEEEE;
+	font-weight: bold;
+	text-align: center;
+}
+td.torrentheader-submitter-td {
+	width: 90px;
+	background: #EEEEEE;
+	font-weight: bold;
+	text-align: center;
+}
+td.torrentheader-seeds-td {
+	width: 50px;
+	background: #EEEEEE;
+	font-weight: bold;
+	text-align: center;
+}
+td.torrentheader-leeches-td {
+	width: 50px;
+	background: #EEEEEE;
+	font-weight: bold;
+	text-align: center;
+}
+td.torrentheader-info-td {
+	width: 36px;
+	background: #EEEEEE;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+td.torrent-select-td {
+	background: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	width: 20px;
+	padding: 0px;
+}
+
+
+td.torrent-date-td {
+	background: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	width: 45px;
+}
+
+td.torrent-name-td {
+	background: #FFFFFF;
+	font-size: 12px;
+	width: 280px;
+}
+
+td.property-name-td {
+	vertical-align: top;
+	width: 130px;
+}
+td.property-value-td {
+
+}
+
+
+td.torrent-filesize-td {
+	background: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	width: 70px;
+}
+
+td.torrent-quality-td {
+	background: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	width: 70px;
+}
+
+
+td.torrent-submitter-td {
+	background: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	width: 90px;
+	white-space:nowrap;
+}
+
+td.torrent-seeds-td {
+	color: green;
+	font-weight: bold;
+	background: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	width: 50px;
+}
+td.torrent-seeds-empty-td {
+	color: red;
+	font-weight: bold;
+	background: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	width: 50px;
+}
+
+td.torrent-nostats-td {
+	width: 100px;
+	background: #FFFFFF;
+	text-align: center;
+	font-style: italic;
+}
+
+td.torrent-leeches-td {
+	color: blue;
+	font-weight: bold;
+	background: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	width: 50px;
+}
+
+td.torrent-info-td {
+	background: #FFFFFF;
+	font-size: 10px;
+	text-align: center;
+	width: 36px;
+}
+
+/*
+     FILE ARCHIVED ON 17:06:28 Jun 27, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:19:29 Dec 04, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.773
+  exclusion.robots: 0.031
+  exclusion.robots.policy: 0.012
+  esindex: 0.016
+  cdx.remote: 32.227
+  LoadShardBlock: 336.177 (3)
+  PetaboxLoader3.resolve: 296.25 (3)
+  PetaboxLoader3.datanode: 260.964 (4)
+  load_resource: 301.531
+*/
