@@ -4,6 +4,65 @@ body {
 	background-color: #D4D4D4;
 	background-repeat: repeat-y;
 }
+
+
+.sprite {
+	background-image:url("../images/logo/suprnova_sprite.jpg");
+	background-repeat:no-repeat;
+
+}
+
+.sprite.menu-news {
+	background-position:-21px -217px;
+	width:98px;
+	height:27px;
+}
+
+.sprite.menu-dash {
+	background-position:-123px -217px;
+	width:14px;
+	height:27px;
+}
+.sprite.menu-forums {
+	background-position:-145px -217px;
+	width:121px;
+	height:27px;
+}
+.sprite.menu-irc {
+	background-position:-295px -217px;
+	width:128px;
+	height:27px;
+}
+
+
+.sprite.menu-irc {
+	background-position:-295px -217px;
+	width:128px;
+	height:27px;
+}
+
+
+.sprite.menu-search {
+	background-position:-450px -217px;
+	width:115px;
+	height:27px;
+}
+
+
+
+.sprite.menu-my-torrents {
+	background-position:-597px -217px;
+	width:157px;
+	height:27px;
+} 
+
+.sprite.menu-upload {
+	background-position:-782px -217px;
+	width:208px;
+	height:27px;
+} 
+
+
 td {
 	font-family: Verdana;
 	font-size: 12px;
