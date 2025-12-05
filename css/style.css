@@ -1,20 +1,25 @@
+
 body { 
 	font-family: Verdana;
 	font-size: 12px;
 	background-color: #D4D4D4;
 	background-repeat: repeat-y;
+	margin:0 0 auto;
 }
 
-.top-menu {
-	list-style-type: none;
-	padding:0;
+
+.flex-container {
+	display:flex;
+	flex-direction:row;
 }
 
-@media screen and (min-width:768px) {
-    .top-menu > li {
-    	display:inline;
-    }
+.flex-container img {
+	display:block;
+}
 
+
+.flex-item {
+	width:100%;
 }
 
 .sprite {
@@ -67,6 +72,88 @@ body {
 	height:21px;
 } 
 
+
+.sprite.sub-games {
+	background-position:-18px -201px;
+	width:70px;
+	height:21px;
+} 
+
+
+.sprite.sub-dash {
+	background-position:-88px -201px;
+	width:17px;
+	height:21px;
+} 
+
+.sprite.sub-movies {
+	background-position:-105px -201px;
+	width:69px;
+	height:21px;
+} 
+
+
+.sprite.sub-tv {
+	background-position:-191px -201px;
+	width:96px;
+	height:21px;
+} 
+
+.sprite.sub-anime {
+	background-position:-304px -201px;
+	width:62px;
+	height:21px;
+} 
+
+.sprite.sub-music {
+	background-position:-383px -201px;
+	width:62px;
+	height:21px;
+} 
+
+.sprite.sub-apps {
+	background-position:-462px -201px;
+	width:54px;
+	height:21px;
+} 
+
+.sprite.sub-comics {
+	background-position:-533px -201px;
+	width:72px;
+	height:21px;
+} 
+
+.sprite.sub-mac {
+	background-position:-622px -201px;
+	width:97px;
+	height:21px;
+} 
+
+.sprite.sub-misc {
+	background-position:-736px -201px;
+	width:51px;
+	height:21px;
+} 
+
+
+.sprite.middle-bar {
+	background-position:-18px -196px;
+	width:100%;
+	height:5px;
+} 
+
+
+@media (max-width:768px) {
+  .flex-container {
+    flex-direction: column;
+    }
+    .sprite.menu-dash {
+    	display:none;
+    }
+    .sprite.sub-dash {
+    	display:none;
+    }
+}
 
 td {
 	font-family: Verdana;
