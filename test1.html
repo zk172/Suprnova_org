@@ -10,11 +10,11 @@
    </head>
    <body>
       
-      <!-- <div style="position:absolute; left:804px; top: 8px;">
+      <div style="position:absolute; left:804px; top: 8px;">
          <div class="float-side-div">
             Support SuprNova:
             <br>
-            <a href="https://web.archive.org/web/20031002012431/http://www.cafeshops.com/suprnovashop" target="_blank">
+            <a href="javascript:void(0);" target="_blank">
             <img src="" width="120" height="62" border="0" style="border:1px solid #999999;margin-top:3px;margin-bottom:3px">
             </a>
             <br>
@@ -22,35 +22,59 @@
          </div>
          <br>
          <div class="float-side-div"><div class="float-title-div">Sponsor:</div>American Hosting:
-         <a href="https://web.archive.org/web/20040614185756/http://www.steadfastnetworks.com/" target="_blank">
+         <a href="javascript:void(0);" target="_blank">
          <img src="images/ads/steadfast_small.gif"          width="120" height="40" border="0" class="sidebar-img"><br><b>
          Steadfast Networks</b></a></div>
 
 <br>
 
         <div class="float-side-div"><div class="float-title-div">Advertisment:</div>ModChipStore.com:<br>
-        <b><a href="https://web.archive.org/web/20040614185756/http://www.modchipstore.com/" target="_blank">
+        <b><a href="javascript:void(0);" target="_blank">
         <img src="" border="0"         class="sidebar-img"><br> </a></b>
         </div>
          <br>
 
       <div class="float-side-div"><div class="float-title-div">Sponsor:</div>German Hosting:<br>
-      <b><a href="https://web.archive.org/web/20040614185756/http://giga-hosting.biz/" target="_blank">
+      <b><a href="javascript:void(0);" target="somethingUnique">
       <img src="images/ads/gigahosting_small.gif" width="120" height="45" border="0" class="sidebar-img"><br>
       Giga-Hosting</a></b>
       </div>
 
 
-      </div> -->
+      </div>
 
 
+        
 <div class="logo">
 <a href="javascript:void(0);"><img border="0" src="images/logo/Tekademix5.jpg" width="629" height="87"></a>
 </div>
 
 
 <div class="flex-container">
+       <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
 
+            <ul class="nav-menu" id="navMenu">
+<li class="nav-item"><img class="sprite menu-news" src="images/logo/spacer.gif" width="1" height="1"></li>
+<li class="nav-item"><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
+<li class="nav-item"><img class="sprite menu-forums" src="images/logo/spacer.gif" width="1" height="1"></li>
+<li class="nav-item"><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
+<li class="nav-item"><img class="sprite menu-irc" src="images/logo/spacer.gif" width="1" height="1"></li>
+<li class="nav-item"><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
+<li class="nav-item"><img class="sprite menu-search" src="images/logo/spacer.gif" width="1" height="1"></li>
+<li class="nav-item"><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
+<li class="nav-item"><img class="sprite menu-my-torrents" src="images/logo/spacer.gif" width="1" height="1"></li>
+<li class="nav-item"><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
+<li class="nav-item"><img class="sprite menu-upload" src="images/logo/spacer.gif" width="1" height="1"></li>
+
+</ul>
+
+        </div>
+
+<!-- <div class="flex-container">
 <a href="javascript:void(0);"><img class="sprite menu-news" src="images/logo/spacer.gif" width="1" height="1"></a><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1">
 
 <a href="javascript:void(0);"><img class="sprite menu-forums" src="images/logo/spacer.gif" width="1" height="1"></a>
@@ -64,8 +88,8 @@
 <a href="javascript:void(0);"><img class="sprite menu-upload" src="images/logo/spacer.gif" width="1" height="1"></a>
 
 
-</div>
-<div class="flex-container">
+</div> -->
+<!-- <div class="flex-container">
    <div class="flex-item"><img class="sprite middle-bar" src="images/logo/spacer.gif" width="1" height="1"></div>
 </div>
 
@@ -90,22 +114,44 @@
    <a href="javascript:void(0);"><img class="sprite sub-misc" src="images/logo/spacer.gif" width="1" height="1"></a>
 </div>
 
+ -->
 
-<!-- <ul class="top-menu">
-<li><img class="sprite menu-news" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li><img class="sprite menu-forums" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li><img class="sprite menu-irc" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li><img class="sprite menu-search" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li><img class="sprite menu-my-torrents" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li><img class="sprite menu-upload" src="images/logo/spacer.gif" width="1" height="1"></li>
 
-</ul> -->
 
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+    });
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            
+            navLinks.forEach(l => l.classList.remove('active'));
+            link.classList.add('active');
+            
+            if (window.innerWidth <= 600) {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            }
+        });
+    });
+
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 600) {
+            navMenu.classList.remove('active');
+            hamburger.classList.remove('active');
+        }
+    });
+});
+</script>
 
    </body>
 </html>
