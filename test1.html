@@ -51,32 +51,18 @@
 
 
 <div class="flex-container">
-       <div class="hamburger" id="hamburger">
+      <!--  <div class="hamburger" id="hamburger">
             <span></span>
             <span></span>
             <span></span>
         </div>
 
-            <ul class="nav-menu" id="navMenu">
-<li class="nav-item"><img class="sprite menu-news" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li class="nav-item"><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li class="nav-item"><img class="sprite menu-forums" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li class="nav-item"><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li class="nav-item"><img class="sprite menu-irc" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li class="nav-item"><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li class="nav-item"><img class="sprite menu-search" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li class="nav-item"><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li class="nav-item"><img class="sprite menu-my-torrents" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li class="nav-item"><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1"></li>
-<li class="nav-item"><img class="sprite menu-upload" src="images/logo/spacer.gif" width="1" height="1"></li>
+     
+     <div class="nav-menu" id="navMenu"> -->
 
-</ul>
-
-        </div>
-
-<!-- <div class="flex-container">
-<a href="javascript:void(0);"><img class="sprite menu-news" src="images/logo/spacer.gif" width="1" height="1"></a><img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1">
-
+    <div class="d1">            
+<a href="javascript:void(0);"><img class="sprite menu-news" src="images/logo/spacer.gif" width="1" height="1"></a>
+<img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1">
 <a href="javascript:void(0);"><img class="sprite menu-forums" src="images/logo/spacer.gif" width="1" height="1"></a>
 <img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1">
 <a href="javascript:void(0);"><img class="sprite menu-irc" src="images/logo/spacer.gif" width="1" height="1"></a>
@@ -86,16 +72,11 @@
 <a href="javascript:void(0);"><img class="sprite menu-my-torrents" src="images/logo/spacer.gif" width="1" height="1"></a>
 <img class="sprite menu-dash" src="images/logo/spacer.gif" width="1" height="1">
 <a href="javascript:void(0);"><img class="sprite menu-upload" src="images/logo/spacer.gif" width="1" height="1"></a>
+     </div>
+     <!-- </div> -->
 
-
-</div> -->
-<!-- <div class="flex-container">
-   <div class="flex-item"><img class="sprite middle-bar" src="images/logo/spacer.gif" width="1" height="1"></div>
-</div>
-
-<div class="flex-container">
-
-   <a href="javascript:void(0);"><img class="sprite sub-games" src="images/logo/spacer.gif" width="1" height="1"></a>
+     <div class="d1">
+ <a href="javascript:void(0);"><img class="sprite sub-games" src="images/logo/spacer.gif" width="1" height="1"></a>
    <img class="sprite sub-dash" src="images/logo/spacer.gif" width="1" height="1">
    <a href="javascript:void(0);"><img class="sprite sub-movies" src="images/logo/spacer.gif" width="1" height="1"></a>   
    <img class="sprite sub-dash" src="images/logo/spacer.gif" width="1" height="1">
@@ -112,46 +93,22 @@
    <a href="javascript:void(0);"><img class="sprite sub-mac" src="images/logo/spacer.gif" width="1" height="1"></a>
    <img class="sprite sub-dash" src="images/logo/spacer.gif" width="1" height="1">
    <a href="javascript:void(0);"><img class="sprite sub-misc" src="images/logo/spacer.gif" width="1" height="1"></a>
+      </div>
+
+
+ </div>
+
+
+<div class="flex-container">
+   <div class="flex-item"><img class="sprite middle-bar" src="images/logo/spacer.gif" width="1" height="1"></div>
 </div>
 
- -->
+<div class="flex-container">
+
+  
+</div>
 
 
-
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const hamburger = document.getElementById('hamburger');
-    const navMenu = document.getElementById('navMenu');
-    const navLinks = document.querySelectorAll('.nav-link');
-
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        navMenu.classList.toggle('active');
-    });
-
-    navLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            
-            navLinks.forEach(l => l.classList.remove('active'));
-            link.classList.add('active');
-            
-            if (window.innerWidth <= 600) {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
-            }
-        });
-    });
-
-    window.addEventListener('resize', () => {
-        if (window.innerWidth > 600) {
-            navMenu.classList.remove('active');
-            hamburger.classList.remove('active');
-        }
-    });
-});
-</script>
 
    </body>
 </html>
