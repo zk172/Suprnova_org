@@ -8,19 +8,17 @@ body {
 }
 
 
-.d1 {
-	flex-grow:1;
-}
+
 
 .flex-container {
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 }
+
 
 .flex-container img {
-	display:block;
+	float:left;
 }
-
 
 .flex-item {
 	width:100%;
@@ -152,7 +150,7 @@ body {
 @media (max-width:500px) {
     
     .flex-container {
-     flex-direction: column;
+     flex-direction: row;
     }
     
     .sprite.menu-dash {
@@ -163,6 +161,19 @@ body {
     	display:none;
     }
 
+    .d1 {
+    	flex-grow:1;
+/*    	margin:0 5px;*/
+    }
+
+   .flex-container img {
+	    display:block;
+	    float:none;
+    }
+
+    .sprite.middle-bar {
+    	transform:rotateZ(90deg);
+    }
 
 }
 
