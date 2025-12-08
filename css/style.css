@@ -193,47 +193,27 @@ main .flex-container {
 }
 
 
-@media (max-width:768px) {
-    
-    .flex-container {
-        flex-direction: column;
-    }
-
-    .sprite.menu-dash {
-    	display:none;
-    }
-    
-    .sprite.sub-dash {
-    	display:none;
-    }
-
-    .d1 {
-    	flex-grow:1;
-/*    	margin:0 5px;*/
-        justify-content: space-between;
-    }
-
-   .flex-container img {
-	    display:block;
-	    float:none;
-    }
-
-
-    .d-none {
-       display:none;
-    }
-
-     .ad-container {
-	    /*position:absolute;
-	    top:0;
-	    left:0;*/
-	    transform:translate(calc(-804px + 100vw),0);
-        z-index:-1;
-     }
-
-
-
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
+.clearfix img {
+	float:none;
+	display:block;
+	margin:0 auto;
+}
+
+.bg-gray {
+	background-color: #666666;
+	margin-top:4px;
+}
+
+.max-w {
+	max-width:782px;
+}
+
+
 
 td {
 	font-family: Verdana;
@@ -289,27 +269,27 @@ span.title {
 
 span.status-Admin {
 	color: #DD0000;
-	font-weight: bdold;
+	font-weight: bold;
 }
 
 span.status-Registered {
 	color: #000000;
-	font-weight: bdold;
+	font-weight: bold;
 }
 
 span.status-Moderator {
 	color: #0000DD;
-	font-weight: bdold;
+	font-weight: bold;
 }
 
 span.status-Submitter {
 	color: #008000;
-	font-weight: bdold;
+	font-weight: bold;
 }
 
 span.status-Donator {
 	color: #804000;
-	font-weight: bdold;
+	font-weight: bold;
 }
 
 
@@ -329,7 +309,7 @@ div.seperator {
 	psadding-left:20px;
 }
 
-td.indenter-td {
+.indenter-td {
 	padding-left: 15px;
 	pasdding-right: 15px;
 }
@@ -392,98 +372,98 @@ a.no-underline:hover {
 	text-decoration: underline;
 }
 
-td.newsitemposter-td {
+.newsitemposter-td {
 	background: #EEEEEE;
-	font-weight: bsold;
+	font-weight: bold;
 	white-space: nowrap;
 }
 
-td.newsitemtitle-td {
+.newsitemtitle-td {
 	background: #EEEEEE;
 	font-weight: bold;
 	color: #800000;
 	width:100%
 }
 
-td.newsitemcontent-td {
+.newsitemcontent-td {
 	background: #FFFFFF;
 	text-align: left;
 }
 	
-td.torrentheader-td {
+.torrentheader-td {
 	background: #EEEEEE;
 	font-weight: bold;
 	text-align: center;
 }
-td.torrentheader-grey-td{
+.torrentheader-grey-td{
 	background: #EEEEEE;
 	font-weight: bold;
 	text-align: center;
 }
-td.torrentheader-name-td {
+.torrentheader-name-td {
 	background: #EEEEEE;
 	font-weight: bold;
 }
 
-td.torrentheader-typeheader-td {
+.torrentheader-typeheader-td {
 	background: #EEEEEE;
 	color: #800000;
 	font-weight: bold;
 }
 
-td.torrent-td {
+.torrent-td {
 	background: #FFFFFF;
 	font-size: 12px;
 }
 
-td.torrentheader-select-td {
+.torrentheader-select-td {
 	width: 20px;
 	background: #EEEEEE;
 	font-weight: bold;
 	padding: 0px;
 }
-td.torrentheader-date-td {
+.torrentheader-date-td {
 	width: 45px;
 	background: #EEEEEE;
 	font-weight: bold;
 	text-align: center;
 }
-td.torrentheader-name-td {
+.torrentheader-name-td {
 	width: 280px;
 	background: #EEEEEE;
 	font-weight: bold;
 }
-td.torrentheader-filesize-td {
+.torrentheader-filesize-td {
 	width: 70px;
 	background: #EEEEEE;
 	font-weight: bold;
 	text-align: center;
 }
-td.torrentheader-quality-td {
+.torrentheader-quality-td {
 	width: 75px;
 	background: #EEEEEE;
 	font-weight: bold;
 	text-align: center;
 }
-td.torrentheader-submitter-td {
+.torrentheader-submitter-td {
 	width: 90px;
 	background: #EEEEEE;
 	font-weight: bold;
 	text-align: center;
 }
-td.torrentheader-seeds-td {
+.torrentheader-seeds-td {
 	width: 50px;
 	background: #EEEEEE;
 	font-weight: bold;
 	text-align: center;
 }
-td.torrentheader-leeches-td {
+.torrentheader-leeches-td {
 	width: 50px;
 	background: #EEEEEE;
 	font-weight: bold;
 	text-align: center;
 }
-td.torrentheader-info-td {
+.torrentheader-info-td {
 	width: 36px;
 	background: #EEEEEE;
 	font-weight: bold;
@@ -491,7 +471,7 @@ td.torrentheader-info-td {
 }
 
 
-td.torrent-select-td {
+.torrent-select-td {
 	background: #FFFFFF;
 	font-size: 12px;
 	text-align: center;
@@ -500,36 +480,36 @@ td.torrent-select-td {
 }
 
 
-td.torrent-date-td {
+.torrent-date-td {
 	background: #FFFFFF;
 	font-size: 12px;
 	text-align: center;
 	width: 45px;
 }
 
-td.torrent-name-td {
+.torrent-name-td {
 	background: #FFFFFF;
 	font-size: 12px;
 	width: 280px;
 }
 
-td.property-name-td {
+.property-name-td {
 	vertical-align: top;
 	width: 130px;
 }
-td.property-value-td {
+.property-value-td {
 
 }
 
 
-td.torrent-filesize-td {
+.torrent-filesize-td {
 	background: #FFFFFF;
 	font-size: 12px;
 	text-align: center;
 	width: 70px;
 }
 
-td.torrent-quality-td {
+.torrent-quality-td {
 	background: #FFFFFF;
 	font-size: 12px;
 	text-align: center;
@@ -537,15 +517,15 @@ td.torrent-quality-td {
 }
 
 
-td.torrent-submitter-td {
+.torrent-submitter-td {
 	background: #FFFFFF;
 	font-size: 12px;
 	text-align: center;
 	width: 90px;
-	white-space:nowrap;
+/*	white-space:nowrap;*/
 }
 
-td.torrent-seeds-td {
+.torrent-seeds-td {
 	color: green;
 	font-weight: bold;
 	background: #FFFFFF;
@@ -553,7 +533,7 @@ td.torrent-seeds-td {
 	text-align: center;
 	width: 50px;
 }
-td.torrent-seeds-empty-td {
+.torrent-seeds-empty-td {
 	color: red;
 	font-weight: bold;
 	background: #FFFFFF;
@@ -562,14 +542,14 @@ td.torrent-seeds-empty-td {
 	width: 50px;
 }
 
-td.torrent-nostats-td {
+.torrent-nostats-td {
 	width: 100px;
 	background: #FFFFFF;
 	text-align: center;
 	font-style: italic;
 }
 
-td.torrent-leeches-td {
+.torrent-leeches-td {
 	color: blue;
 	font-weight: bold;
 	background: #FFFFFF;
@@ -578,11 +558,60 @@ td.torrent-leeches-td {
 	width: 50px;
 }
 
-td.torrent-info-td {
+.torrent-info-td {
 	background: #FFFFFF;
 	font-size: 10px;
 	text-align: center;
 	width: 36px;
+}
+
+
+
+
+@media (max-width:768px) {
+    
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .sprite.menu-dash {
+    	display:none;
+    }
+    
+    .sprite.sub-dash {
+    	display:none;
+    }
+
+    .d1 {
+    	flex-grow:1;
+/*    	margin:0 5px;*/
+        justify-content: space-between;
+    }
+
+   .flex-container img {
+	    display:block;
+	    float:none;
+    }
+
+
+    .d-none {
+       display:none;
+    }
+
+     .ad-container {
+	    /*position:absolute;
+	    top:0;
+	    left:0;*/
+	    transform:translate(calc(-804px + 100vw),0);
+        z-index:-1;
+     }
+
+   .torrent-date-td,.torrent-name-td,.torrent-filesize-td,.torrent-seeds-td,.torrent-leeches-td,.torrent-quality-td,.torrent-submitter-td,.torrent-info-td {
+
+     font-size:16px;
+
+   }
+
 }
 
 /*
