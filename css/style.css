@@ -9,6 +9,10 @@ body {
 
 
 
+.logo, .d1 {
+/*	transform:translate(0,-500%);*/
+}
+
 
 .flex-container {
 	display:flex;
@@ -146,13 +150,21 @@ body {
 
 
 
+.ad-container {
+/*	transform:translate(804px,8px);*/
+	position:absolute;
+	top:8px;
+	left:804px;
+  }
 
-@media (max-width:500px) {
+
+
+@media (max-width:768px) {
     
     .flex-container {
-     flex-direction: row;
+        flex-direction: column;
     }
-    
+
     .sprite.menu-dash {
     	display:none;
     }
@@ -171,13 +183,22 @@ body {
 	    float:none;
     }
 
-    .sprite.middle-bar {
-    	transform:rotateZ(90deg);
+
+    .d-none {
+       display:none;
     }
 
+     .ad-container {
+	    /*position:absolute;
+	    top:0;
+	    left:0;*/
+	    transform:translate(calc(-804px + 100vw),0);
+        z-index:-1;
+     }
+
+
+
 }
-
-
 
 td {
 	font-family: Verdana;
