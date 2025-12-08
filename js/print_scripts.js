@@ -1,12 +1,3 @@
-var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
-let window = _____WB$wombat$assign$function_____("window");
-let self = _____WB$wombat$assign$function_____("self");
-let document = _____WB$wombat$assign$function_____("document");
-let location = _____WB$wombat$assign$function_____("location");
-let top = _____WB$wombat$assign$function_____("top");
-let parent = _____WB$wombat$assign$function_____("parent");
-let frames = _____WB$wombat$assign$function_____("frames");
-let opens = _____WB$wombat$assign$function_____("opens");
 torrent_servers = Array();
 
 function at (torrent_id, torrent_additiondate_day, torrent_server_id, torrent_viewserver_id, torrent_view_link, torrent_link_desc, torrent_name, torrent_link, torrent_filesize_mb, torrent_lastnrseeds, torrent_lastnrleeches, torrent_quality, torrent_submitter_id, torrent_submitter_nickname, torrent_submitter_status, torrent_infolink, torrent_type_id, torrent_tracker_has_nostats, torrent_tracker_has_unknownstats, torrent_lastcheck_nr_invalid, torrent_is_moderated, torrent_is_deleted, torrent_is_softdeleted, torrent_has_rights)
