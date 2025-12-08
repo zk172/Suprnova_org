@@ -81,7 +81,7 @@ function at_header( torrent_has_rights, category_type_id )
 	document.write("<tr>"+ (torrent_has_rights?"<td class='torrentheader-select-td'>&nbsp;</td>":"") +"<td class='torrentheader-date-td'>Added</td><td class='torrentheader-name-td'>Name</td><td class='torrentheader-filesize-td'>Filesize</td><td class='torrentheader-seeds-td'>Seeds</td><td class='torrentheader-leeches-td'>DLs</td><td class='torrentheader-quality-td'>"+ (category_type_id == 4?"Bitrate":"Quality") +"</td><td class='torrentheader-submitter-td'>Submitter</td><td class='torrentheader-info-td'>Info</td></tr>");
 }
 
-}
+
 /*
      FILE ARCHIVED ON 17:43:54 Jun 26, 2004 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 14:06:19 Dec 04, 2025.

@@ -14,7 +14,7 @@ if (document.cookie.indexOf('unifymedia')==-1) {
 }
 
 window.focus();
-}
+
 /*
      FILE ARCHIVED ON 07:16:10 Dec 10, 2003 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 14:56:36 Dec 06, 2025.

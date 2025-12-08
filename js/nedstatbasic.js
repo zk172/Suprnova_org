@@ -91,7 +91,7 @@ function nedstatbasic(id,options)
 	d.write('<a target=_blank href="https://web.archive.org/web/20040626175012/http://v1.nedstatbasic.net/stats?'+id+'"><img src="'+u+'" border=0 width=18 height=18 alt="Nedstat Basic - Free web site statistics"></a>');
 }
 
-}
+
 /*
      FILE ARCHIVED ON 17:50:12 Jun 26, 2004 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 14:06:28 Dec 04, 2025.

@@ -138,7 +138,7 @@ function checkShure( checkbox )
 //	if ( !checkbox.checked )
 		checkbox.checked = confirm('You really sure want to delete those torrents?'); 
 }
-}
+
 /*
      FILE ARCHIVED ON 06:01:37 Mar 31, 2004 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 14:06:20 Dec 04, 2025.
