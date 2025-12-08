@@ -607,10 +607,12 @@ a.no-underline:hover {
      }
 
    .torrent-date-td,.torrent-name-td,.torrent-filesize-td,.torrent-seeds-td,.torrent-leeches-td,.torrent-quality-td,.torrent-submitter-td,.torrent-info-td {
-
      font-size:16px;
-
    }
+   body > main > div:nth-child(2) > table:nth-child(6) {
+/*   	font-size:16px;*/
+   }
+
 
 }
 
